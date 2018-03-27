@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "gitlab/ci/yaml_lint"
+
+infile = ARGV.shift
+
+unless infile
+  $stderr.puts("Usage #{$0} <path/to/.gitlab-ci.yml>")
+  exit 1
+end
+
+Gitlab::Ci::YamlLint.validate(infile)
