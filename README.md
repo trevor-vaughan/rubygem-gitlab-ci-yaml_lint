@@ -23,8 +23,12 @@ Or install it yourself as:
 
 ## Usage
 
+### CLI
+
 You can validate a `.gitlab-ci.yml` file using the `gitlab-ci-yaml_lint`
 application by passing it the path to your local `.gitlab-ci.yml` file.
+
+### Rake Integration
 
 To use the rake tasks, simply include the following in your project's `Rakefile`:
 
