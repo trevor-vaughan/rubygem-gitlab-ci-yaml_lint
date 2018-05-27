@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-require "bundler/setup"
 require "gitlab/ci/yaml_lint"
 
 infile = ARGV.shift
