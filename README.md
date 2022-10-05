@@ -51,4 +51,4 @@ To install this gem onto your local machine, run `bundle exec rake install`.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/trevor-vaughan/gitlab-ci-yaml_lint.
+Bug reports and pull requests are welcome on the [GitHub project page](/../../).
